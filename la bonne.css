@@ -1,0 +1,101 @@
+body, html{
+  height: 100%;
+}
+
+.initiabackground001{
+  /*for background image*/
+  background-image: url(https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80);
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+}
+
+#maintextBody{
+  margin-top: 15%;
+  float: right;
+}
+
+nav{
+  z-index: 999;
+  background-color: inherit;
+}
+.nav-link{
+color: #19191a;
+}
+
+#brandforName{
+  font-family: 'Bad Script', cursive;
+  color: #ffbf00;
+
+}
+#Homeleee{
+  font-family: 'Poiret One', cursive;
+  font-weight: 500;
+  color: #ffbf00;
+}
+#aboutuscolumn{
+  float: left;
+  margin-top: 8%;
+  margin-left: 5%;
+  color: #ffbf00;
+  width: 500px;
+  z-index: 1
+
+}
+
+#menutext01{
+  color: #ffbf00;
+  font-style: 'Nanum Gothic', sans-serif;
+
+}
+#textAbout1{
+font-family: 'Nanum Gothic', sans-serif;
+}
+
+#textAbout2{
+  font-family: 'Nanum Brush Script', cursive;
+  font-weight: 600;
+  font-size: 20px;
+
+}
+#gggg{
+  color: #ffbf00;
+    font-style: 'Bad Script', cursive;
+
+}
+#gggg1{
+  color: #ffbf00;
+    font-style: 'Bad Script', cursive;
+
+}
+#gggg2{
+  color: #ffbf00;
+    font-style: 'Bad Script', cursive;
+
+}
+#gggg3{
+  color: #ffbf00;
+    font-style: 'Bad Script', cursive;
+
+}
+
+.nav-item{
+  font-style: 'Bad Script', cursive;
+  color: #ffbf00;
+
+}
+
+.initiabackground002{
+  background-image: url(https://us.123rf.com/450wm/maxmega/maxmega1703/maxmega170300006/74222554-comida-r%C3%A1pida-de-textura-de-fondo.jpg?ver=6);
+  background-position: center;
+  background-size: cover;
+}
+
+
+.wrapper{
+  display: grid;
+  grid-template-columns: repeat(6, 2fr);
+  grid-auto-rows: 440px;
+}
